@@ -1,0 +1,814 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: sans-serif;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: rgb(107, 28, 94);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    transition: background 0.3s ease-in-out;
+}
+
+.view{
+    color: rgb(145, 145, 145);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background-color: rgb(13, 151, 75);
+    display: block;
+    border-radius: 10px;
+
+}
+
+.greeting {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+
+
+.logos {
+    width: 100vw;  
+    height: 430px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logos {
+    width: 100vw;
+    height: 430px;
+    background-image: url(img/beach-huts.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*dining*/
+.logo {
+    width: 100vw;  
+    height: 430px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100vw;
+    height: 430px;
+    background-image: url(img/pexels-saarteaga-18299597.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/*dining*/
+
+/*TESTIMONIALS*/
+
+
+/*TESTIMONIALS*/
+
+
+.video-container {
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@media (max-width: 668px) {
+    .menu  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu a {
+        display: block;
+        padding: 8px 0;     
+    }
+
+    .video-container {
+        width: auto;
+        height: 230px;
+
+    }
+}
+
+
+h1{
+    text-align: center;
+    padding: 15px;
+    color: rgb(107, 28, 94);
+}
+
+h2{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+h3{
+    padding: 5px;
+
+}
+
+
+/* Home*/
+.p-container, .p-container-hues {
+    max-width: 450px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+
+@media (max-width: 1000px) {
+    .p-container {
+        
+        padding: 5px;
+       
+        height: auto;
+    }
+
+    .p-container-hues{
+        height: auto;
+        padding: 5px;
+        display: block;
+        max-width: 450px;
+        
+    }
+
+}
+
+.droom{
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* Home*/
+
+
+
+/* SPA*/
+.Massages, .Facials, .BodyT,.Manicures, .Enhancements, .Wellness {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+    border: solid rgb(107, 28, 94);
+    max-width: 1200px;
+    margin-top: 10px;
+    
+
+}
+
+
+
+
+.png {
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+   padding: 20px;
+}
+
+.png img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.pngf {
+    max-width: 205px;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+
+.pngf img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.pngb img {
+    height: 100%;
+    max-width: 380px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    float: right;
+}
+
+.pngb{
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.pngm {
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+   padding: 20px;
+}
+
+.pngm img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.pnge {
+    max-width: 205px;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+    padding: 20px;
+   
+    height: auto;
+}
+
+.pnge img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.pngw {
+    max-width: 450px;
+    border-radius: 10px; 
+    display: flex;
+    float: right;
+    padding: 20px;
+    height: 100%;
+}
+
+.pngw img{
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.Massages:hover, .Facials:hover, .BodyT:hover, .Manicures:hover, .Enhancements:hover,.Wellness:hover{
+    transform: scale(1.01);
+}
+
+
+@media (max-width: 320px) {
+  
+    .png .png-img .pngb .pngm-img .pngm .pnge .pnge-{
+        max-width: 868px;
+        height: auto;
+        border-radius: 10px; 
+        justify-content: center;
+  
+    }
+}
+
+@media (min-width: 768px) {
+    .Massages .Important .Facials .BodyT .Manicures .Enhancements {
+        grid-template-columns: 1fr; 
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pnge  {
+        float: none;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+.Importan  {
+    color: rgb(107, 28, 94);
+    padding: 20px;
+    text-decoration-line: underline;
+}
+
+.Important{
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+/* SPA*/
+
+/* GUEST ROOMS*/
+.room-grid {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: auto;
+    
+}
+
+.room {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    flex: 1 1 45%;
+    min-width: 280px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room h2 {
+    color: rgb(107, 28, 94);
+    margin-bottom: 10px;
+}
+
+.room p {
+    margin-bottom: 15px;
+}
+
+.room ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .room-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* GUEST ROOMS*/
+
+
+/*dining*/
+
+.restaurant-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 5%;
+    justify-content: center;
+}
+
+.restaurant-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.restaurant-card img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.restaurant-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.restaurant-content h2 {
+    color: rgb(107, 28, 94);
+    margin-top: 0;
+}
+
+.restaurant-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.restaurant-content ul li::before {
+    content: "● ";
+    color: #4a00e0;
+}
+
+
+@media (max-width: 768px) {
+    .restaurant-card {
+        flex-direction: column;
+    }
+
+    .restaurant-card img {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/*dining*/
+
+
+/*activities*/
+
+.hero {
+    background: linear-gradient(to right, #00b4d8, #0077b6);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: rgb(107, 28, 94);
+    text-align: center;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 25px;
+    flex: 1 1 300px;
+    max-width: 370px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: rgb(107, 28, 94);
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 12px;
+    padding-left: 16px;
+    position: relative;
+}
+
+.card ul li::before {
+    content: "✔";
+    color: #0096c7;
+    position: absolute;
+    left: 0;
+}
+
+.booking-info {
+    background-color: #e0f7fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.booking-info h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.booking-info ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.05rem;
+}
+
+.booking-info li {
+    margin: 10px 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section h2 {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}
+
+
+video{
+    width: 100%; 
+    height: auto;
+}
+
+/*activities*/
+
+
+/*testimonials*/
+
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+p.intro {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.review-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-text {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    text-align: right;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.footer-msg {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #374151;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .review-text {
+        font-size: 0.95em;
+    }
+}
+
+/*testimonials*/
+
+/* serch*/
+.global-search {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  #globalSearchInput {
+    width: 90%;
+    max-width: 600px;
+    padding: 12px 18px;
+    font-size: 1.1rem;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  #globalSearchInput:focus {
+    border-color: #0077cc;
+    outline: none;
+  }
+
+  .highlight {
+    background-color: #ffffcc;
+    transition: background-color 0.5s ease;
+  }
+/* serch*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.view-details-button {
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.view-details{
+    color: rgb(129, 127, 127);
+    width: 10px;
+    height: 4px;
+   font-size: 15px;
+}
+
+.reservation-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.required {
+    color: red;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    background-color: #eee;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+
+@media (max-width: 320px) {
+    .f{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+.f{
+    width: 40px;
+    padding: 5px;
+   
+}
